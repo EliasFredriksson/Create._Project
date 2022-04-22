@@ -147,7 +147,7 @@ main .outer-wrapper .__search-container .__search-bar {
   padding: 5px;
   border-radius: 10px;
   background-color: #ffffff;
-  width: 400px;
+  width: 300px;
 }
 main .outer-wrapper .__search-container .__search-bar input {
   flex-grow: 1;
