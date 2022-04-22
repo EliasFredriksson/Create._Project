@@ -1,0 +1,14 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss": "sass ./scss/main.scss ./css/main.css --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "sass": "^1.50.1"
+    }
+}

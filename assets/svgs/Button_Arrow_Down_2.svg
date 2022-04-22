@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.18 40.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="23.59" y1="25.55" x2="23.59" y2="0" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef4b6e"/>
+      <stop offset=".19" stop-color="#ec4b6e"/>
+      <stop offset=".32" stop-color="#e24b6f"/>
+      <stop offset=".44" stop-color="#d24c71"/>
+      <stop offset=".55" stop-color="#bc4e74"/>
+      <stop offset=".66" stop-color="#9f5078"/>
+      <stop offset=".76" stop-color="#7c537d"/>
+      <stop offset=".85" stop-color="#525683"/>
+      <stop offset=".94" stop-color="#22598a"/>
+      <stop offset="1" stop-color="#005c8f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="40.91" y2="15.36" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Pilar_ner">
+    <path class="cls-1" d="M23.56,25.55L1.05,5.48C-.24,4.33-.36,2.35,.8,1.05,1.95-.24,3.94-.36,5.23,.8L23.62,17.19,41.98,1.29c1.31-1.14,3.29-.99,4.43,.32,1.13,1.31,.99,3.29-.32,4.43L23.56,25.55Z"/>
+    <path class="cls-2" d="M23.56,40.91L1.05,20.84c-1.29-1.15-1.41-3.14-.26-4.43,1.16-1.3,3.14-1.41,4.43-.26l18.39,16.39,18.36-15.9c1.31-1.14,3.3-.99,4.43,.32,1.13,1.31,.99,3.29-.32,4.43l-22.53,19.51Z"/>
+  </g>
+</svg>

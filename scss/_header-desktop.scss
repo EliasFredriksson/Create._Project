@@ -1,0 +1,67 @@
+@use "variables" as vars;
+@use "mixins" as mixins;
+
+.desktop-header {
+    display: none;
+
+    @include mixins.breakpoint-tablet {
+        position: relative;
+        background-color: vars.$create-white;
+        display: flex;
+        justify-content: center;
+
+        .wrapper {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+
+            .__top {
+                display: flex;
+                justify-content: space-between;
+                .logotype-mobile {
+                    width: 200px;
+                    padding: vars.$create-spacing;
+                }
+            }
+
+            .__bottom {
+                display: flex;
+                align-items: center;
+
+                a {
+                    position: relative;
+                    flex-basis: 25%;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                    text-decoration: none;
+                    width: 100%;
+                    display: flex;
+
+                    span {
+                        z-index: 10;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        color: vars.$create-white;
+                        font-family: vars.$urbane-condensed-extra-light;
+                        font-size: calc(vars.$font-size-small * 1.5);
+                        transition: 200ms ease-in-out;
+                    }
+                    object {
+                        transition: filter 200ms ease-in-out;
+                    }
+
+                    &:hover {
+                        span {
+                            text-decoration: underline;
+                        }
+                        object {
+                            filter: brightness(120%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

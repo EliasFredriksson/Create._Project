@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43.6 52.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: url(#linear-gradient-4);
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="21.56" y1="31.74" x2="1.18" y2="11.36" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ee4a6d"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="21.8" y1="21.33" x2="43.1" y2="21.33" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e04567"/>
+      <stop offset="1" stop-color="#6a84be"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1=".5" y1="41.86" x2="43.1" y2="41.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#942842"/>
+      <stop offset="1" stop-color="#437296"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0" y1="26.35" x2="43.6" y2="26.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbe1e5"/>
+      <stop offset="1" stop-color="#0c3c57"/>
+    </linearGradient>
+  </defs>
+  <g id="Kub">
+    <polygon class="cls-1" points=".5 42.15 21.8 31.51 21.8 .5 .5 12.03 .5 42.15"/>
+    <polygon class="cls-2" points="43.1 42.15 21.8 31.51 21.8 .5 43.1 12.03 43.1 42.15"/>
+    <polygon class="cls-4" points="43.1 42.15 21.8 52.21 .5 42.15 21.8 31.51 43.1 42.15"/>
+    <polygon class="cls-3" points="43.1 12.03 43.1 42.15 21.8 52.21 .5 42.15 .5 12.03 21.8 .5 43.1 12.03"/>
+  </g>
+</svg>

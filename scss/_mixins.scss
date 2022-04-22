@@ -1,0 +1,19 @@
+@use "variables" as vars;
+
+@mixin breakpoint-mobile {
+    @media screen and (min-width: vars.$breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin breakpoint-tablet {
+    @media screen and (min-width: vars.$breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop {
+    @media screen and (min-width: vars.$breakpoint-desktop) {
+        @content;
+    }
+}

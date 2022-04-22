@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.17 46.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: url(#linear-gradient-2);
+        stroke-miterlimit: 10;
+        stroke-width: 1.75px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1491.88" y1="482.06" x2="1526.6" y2="516.77" gradientTransform="translate(1535.32 522.9) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#944866"/>
+      <stop offset="1" stop-color="#002a4c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1491.26" y1="481.44" x2="1527.22" y2="517.39" gradientTransform="translate(1535.32 522.9) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fce2e5"/>
+      <stop offset="1" stop-color="#0d3d58"/>
+    </linearGradient>
+  </defs>
+  <g id="Knapp_pilar_upp">
+    <path class="cls-2" d="M1.65,26.38l9.71,16.82c1.03,1.79,2.94,2.89,5.01,2.89h19.42c2.07,0,3.98-1.1,5.01-2.89l9.71-16.82c1.03-1.79,1.03-4,0-5.79L40.81,3.77c-1.03-1.79-2.94-2.89-5.01-2.89H16.37c-2.07,0-3.98,1.1-5.01,2.89L1.65,20.59c-1.03,1.79-1.03,4,0,5.79Zm12.09-5.16l12.36-10.7,12.34,11c.71,.63,.77,1.72,.14,2.43-.63,.71-1.72,.77-2.43,.14l-10.08-8.99-10.07,8.72c-.72,.62-1.81,.54-2.43-.17-.62-.72-.54-1.81,.17-2.43Zm0,8.42l12.36-10.7,12.34,11c.71,.63,.77,1.72,.14,2.43-.63,.71-1.72,.77-2.43,.14l-10.08-8.99-10.07,8.72c-.72,.62-1.81,.54-2.43-.17-.62-.72-.54-1.81,.17-2.43Z"/>
+    <path class="cls-1" d="M1.65,26.38l9.71,16.82c1.03,1.79,2.94,2.89,5.01,2.89h19.42c2.07,0,3.98-1.1,5.01-2.89l9.71-16.82c1.03-1.79,1.03-4,0-5.79L40.81,3.77c-1.03-1.79-2.94-2.89-5.01-2.89H16.37c-2.07,0-3.98,1.1-5.01,2.89L1.65,20.59c-1.03,1.79-1.03,4,0,5.79Z"/>
+  </g>
+</svg>

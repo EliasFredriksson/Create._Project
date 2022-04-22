@@ -1,0 +1,29 @@
+@use "mixins" as mixins;
+@use "variables" as vars;
+
+.mobile-tablet-header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include mixins.breakpoint-tablet {
+        display: none;
+    }
+
+    .logotype-mobile {
+        width: 300px;
+    }
+
+    .button-mobile-arrow-down_2 {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: vars.$button-size-small;
+    }
+}
