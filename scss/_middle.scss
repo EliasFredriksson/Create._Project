@@ -42,9 +42,13 @@ main {
             width: 100%;
             .__contact-title {
                 font-family: vars.$urbane-condensed-extra-light;
-                font-size: vars.$font-size-large;
+                font-size: vars.$font-size-medium;
                 padding: vars.$create-spacing;
                 color: vars.$create-white;
+
+                @include mixins.breakpoint-tablet {
+                    font-size: vars.$font-size-large;
+                }
             }
         }
 
@@ -109,7 +113,11 @@ main {
                 label {
                     width: 100%;
                     font-family: vars.$urbane-condensed-extra-light;
-                    font-size: vars.$font-size-medium;
+                    font-size: vars.$font-size-small;
+
+                    @include mixins.breakpoint-tablet {
+                        font-size: vars.$font-size-medium;
+                    }
                 }
 
                 input[type="email"],

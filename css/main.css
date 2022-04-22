@@ -120,9 +120,14 @@ main .outer-wrapper .__contact-title-container {
 }
 main .outer-wrapper .__contact-title-container .__contact-title {
   font-family: urbane-condensed, sans-serif;
-  font-size: 48pt;
+  font-size: 24pt;
   padding: 15px;
   color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  main .outer-wrapper .__contact-title-container .__contact-title {
+    font-size: 48pt;
+  }
 }
 main .outer-wrapper .__search-container {
   display: flex;
@@ -178,14 +183,19 @@ main .outer-wrapper .wrapper #contact-form {
 main .outer-wrapper .wrapper #contact-form label {
   width: 100%;
   font-family: urbane-condensed, sans-serif;
-  font-size: 24pt;
+  font-size: 12pt;
+}
+@media screen and (min-width: 1024px) {
+  main .outer-wrapper .wrapper #contact-form label {
+    font-size: 24pt;
+  }
 }
 main .outer-wrapper .wrapper #contact-form input[type=email],
 main .outer-wrapper .wrapper #contact-form textarea {
   width: 100%;
   padding: 15px;
   font-family: fira-sans, sans-serif;
-  font-size: 24pt;
+  font-size: 12pt;
   resize: none;
   border: 2px solid;
   border-radius: 10px;
@@ -210,7 +220,7 @@ main .outer-wrapper .wrapper #contact-form input[type=file]::file-selector-butto
   border: none;
   padding: 15px;
   font-family: fira-sans, sans-serif;
-  font-size: 18pt;
+  font-size: 12pt;
   color: white;
   border-radius: 10px;
   cursor: pointer;
@@ -512,7 +522,7 @@ footer .outer-wrapper .wrapper .__right .logotype-mobile-vertical {
   color: white;
   text-align: center;
   font-family: urbane-condensed, sans-serif;
-  font-size: 12pt;
+  font-size: 10.8pt;
   letter-spacing: 3px;
   padding: 15px;
 }
@@ -563,6 +573,7 @@ html body {
   flex-direction: column;
   min-height: 100%;
   font-style: normal;
+  overflow-y: hidden;
 }
 
 /* ### MODAL STATES ### */
