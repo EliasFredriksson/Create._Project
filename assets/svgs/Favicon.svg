@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.13 45.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        filter: url(#outer-glow-1);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2.48" y1="2.48" x2="42.65" y2="42.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec008c"/>
+      <stop offset="1" stop-color="#005c8f"/>
+    </linearGradient>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#f9d1e0" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="22.42" y1="25.8" x2="10.19" y2="13.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ee4a6d"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1297.06" y1="19.55" x2="1284.28" y2="19.55" gradientTransform="translate(1319.62) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e04567"/>
+      <stop offset="1" stop-color="#6a84be"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="9.79" y1="31.87" x2="35.34" y2="31.87" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#942842"/>
+      <stop offset="1" stop-color="#437296"/>
+    </linearGradient>
+  </defs>
+  <g id="App_Ikon">
+    <rect id="Bakgrund" class="cls-1" width="45.13" height="45.13" rx="8.45" ry="8.45"/>
+    <g id="Kub" class="cls-3">
+      <g id="Cube">
+        <polygon class="cls-2" points="9.79 32.04 22.56 25.66 22.56 7.05 9.79 13.97 9.79 32.04"/>
+        <polygon class="cls-6" points="35.34 32.04 22.56 25.66 22.56 7.05 35.34 13.97 35.34 32.04"/>
+        <polygon class="cls-4" points="35.34 32.04 22.56 38.08 9.79 32.04 22.56 25.66 35.34 32.04"/>
+        <polygon class="cls-5" points="35.34 13.97 35.34 32.04 22.56 38.08 9.79 32.04 9.79 13.97 22.56 7.05 35.34 13.97"/>
+      </g>
+    </g>
+  </g>
+</svg>
