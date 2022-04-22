@@ -117,7 +117,7 @@ main {
                     width: 100%;
                     padding: vars.$create-spacing;
                     font-family: vars.$fira-sans-thin;
-                    font-size: vars.$font-size-medium;
+                    font-size: vars.$font-size-small;
                     resize: none;
 
                     border: 2px solid;
@@ -149,7 +149,7 @@ main {
                         border: none;
                         padding: vars.$create-spacing;
                         font-family: vars.$fira-sans-thin;
-                        font-size: calc(vars.$font-size-small * 1.5);
+                        font-size: vars.$font-size-small;
                         color: white;
                         border-radius: vars.$create-border-radius;
                         cursor: pointer;
