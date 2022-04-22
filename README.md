@@ -6,5 +6,8 @@ All assets is created from scratch inside Adobe Illustrator. Except for the font
 
 This project is mainly for practise in developing a website visually. So some functionallity is not implemented. For example the searchbar.
 
+Here you can view the page via GitHub Pages:
+https://eliasfredriksson.github.io/Create._Project/index.html
+
 Author: Elias Fredriksson
 Date: 2022-04-22
